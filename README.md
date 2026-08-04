@@ -133,14 +133,39 @@ The dataset contains **5 primary classes**:
 
 ---
 
-## 6. License
+## 6. Datasets & Download Links
+
+The models heavily rely on coordinate and temporal feature data. The datasets should be placed in the `data/` directory, organized into `deadlift` and `benchpress` subdirectories.
+
+### Deadlift Dataset (MOCVD)
+Utilizes the **Multiple Outlook-Angles Conventional Deadlift Dataset (MOCVD)**.
+
+**Download Links (Split 7z Archives):**
+- [DeadliftDataset.7z.001](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.001)
+- [DeadliftDataset.7z.002](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.002)
+- [DeadliftDataset.7z.003](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.003)
+- [DeadliftDataset.7z.004](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.004)
+- [DeadliftDataset.7z.005](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.005)
+- [DeadliftDataset.7z.006](https://catslab.ee.ncku.edu.tw/public/DeadliftDataset/DeadliftDataset.7z.006)
+
+*Note: You will need to download all parts and use a tool like 7-Zip to extract them.*
+
+### Benchpress Dataset
+Utilizes JSON-formatted pre-extracted feature data (tracking wrist/barbell trajectories or body postures).
+
+**Download Link:**
+- [BenchpressDataset.zip](https://catslab.ee.ncku.edu.tw/public/BenchpressDataset.zip)
+
+---
+
+## 7. License
 
 This dataset is provided for **academic research purposes only**.  
 For commercial use, please contact the authors.
 
 ---
 
-## 7. Citation
+## 8. Citation
 
 If you use this dataset, please cite:
 
@@ -149,7 +174,6 @@ If you use this dataset, please cite:
   title     = {Multiple Outlook-Angles Conventional Deadlift Dataset (MOCVD)},
   author    = {Guan-Ting Chen and Collaborators},
   year      = {2025},
-  publisher = {National Cheng Kung University},
-  url       = {https://your-dataset-link.com}
+  publisher = {National Cheng Kung University}
 }
 ```
