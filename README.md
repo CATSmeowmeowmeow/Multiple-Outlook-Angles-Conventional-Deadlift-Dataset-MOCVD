@@ -150,12 +150,6 @@ Utilizes the **Multiple Outlook-Angles Conventional Deadlift Dataset (MOCVD)**.
 
 *Note: You will need to download all parts and use a tool like 7-Zip to extract them.*
 
-### Benchpress Dataset
-Utilizes JSON-formatted pre-extracted feature data (tracking wrist/barbell trajectories or body postures).
-
-**Download Link:**
-- [BenchpressDataset.zip](https://catslab.ee.ncku.edu.tw/public/BenchpressDataset.zip)
-
 ---
 
 ## 7. License
